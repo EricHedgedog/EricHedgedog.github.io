@@ -7,7 +7,7 @@
     
 
     <title>
-      所有文章: 2016/2 
+      hexo + Github 搭建静态博客 | Eric.M.Y.H 
     </title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -16,15 +16,58 @@
     
     
 
-    <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="所有文章: 2016/2">
-<meta property="og:url" content="http://yoursite.com/archives/2016/02/index.html">
+    <meta name="description" content="hexo是一个静态博客框架，能够很方便的在github上搭起来个人博客。
+
+首先要安装node.js
+
+npm install hexo -g 全局安装hexo
+
+在当前目录下初始化一个博客文件夹myblog ：
+hexo init myblog
+进入博客目录：
+cd myblog
+安装package.jason中的所有依赖包：
+npm install
+
+在本地启动服务
+hexo server">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo + Github 搭建静态博客 | Eric.M.Y.H">
+<meta property="og:url" content="http://yoursite.com/2016/02/23/hexo-blog/index.html">
 <meta property="og:site_name" content="Eric.M.Y.H">
-<meta property="og:description">
+<meta property="og:description" content="hexo是一个静态博客框架，能够很方便的在github上搭起来个人博客。
+
+首先要安装node.js
+
+npm install hexo -g 全局安装hexo
+
+在当前目录下初始化一个博客文件夹myblog ：
+hexo init myblog
+进入博客目录：
+cd myblog
+安装package.jason中的所有依赖包：
+npm install
+
+在本地启动服务
+hexo server">
+<meta property="og:updated_time" content="2016-02-23T15:13:03.351Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="所有文章: 2016/2">
-<meta name="twitter:description">
+<meta name="twitter:title" content="hexo + Github 搭建静态博客 | Eric.M.Y.H">
+<meta name="twitter:description" content="hexo是一个静态博客框架，能够很方便的在github上搭起来个人博客。
+
+首先要安装node.js
+
+npm install hexo -g 全局安装hexo
+
+在当前目录下初始化一个博客文件夹myblog ：
+hexo init myblog
+进入博客目录：
+cd myblog
+安装package.jason中的所有依赖包：
+npm install
+
+在本地启动服务
+hexo server">
     
     
     
@@ -142,65 +185,71 @@ classes that you can use:
         <div class="content-wrapper__inner entry">
             
 
+<article class="post-container post-container--single">
 
-  <h1 class="archive-title">所有文章: 2016/2</h1>
-  <hr class="post-list__divider" />
-
-
-<div class="main-post-list">
-    <ol class="post-list">
+  <header class="post-header">
     
-    
-    <li>
+    <h1 class="post-title">hexo + Github 搭建静态博客</h1>
 
-      <h2 class="post-list__post-title post-title">
-        <a href="/2016/02/23/hexo-blog/" title="link to hexo + Github 搭建静态博客">hexo + Github 搭建静态博客</a>
-      </h2>
-
-      <div class="post-list__meta">
-
-        <time datetime="2016-02-23" class="post-list__meta--date date">2016-02-23</time> 
-      </div>
-
-      <div class="excerpt">
-        
-      </div>
-
-      <hr class="post-list__divider" />
-    </li>
-    
-    <li>
-
-      <h2 class="post-list__post-title post-title">
-        <a href="/2016/02/23/atom-plugin/" title="link to 前端常用 Atom 插件">前端常用 Atom 插件</a>
-      </h2>
-
-      <div class="post-list__meta">
-
-        <time datetime="2016-02-23" class="post-list__meta--date date">2016-02-23</time> 
-      </div>
-
-      <div class="excerpt">
-        
-      </div>
-
-      <hr class="post-list__divider" />
-    </li>
-    
-  </ol>
-
-  <hr class="post-list__divider " />
-
-<nav class="pagination" role="navigation">
     
 
-    <span class="pagination__page-number"> 1 / 1</span>
+    <div class="post-meta">
+      <time datetime="2016-02-23" class="post-meta__date date">2016-02-23</time> 
+
+      <span class="post-meta__tags tags">
+
+          
+
+          
+
+      </span>
+    </div>
     
     
-</nav>
+
+  </header>
+
+  <section id="post-content" class="article-content post">
+    <p>hexo是一个静态博客框架，能够很方便的在github上搭起来个人博客。</p>
+<ol>
+<li><p>首先要安装node.js</p>
+</li>
+<li><p>npm install hexo -g 全局安装hexo</p>
+</li>
+<li><p>在当前目录下初始化一个博客文件夹myblog ：</p>
+<p><code>hexo init myblog</code></p>
+<p>进入博客目录：</p>
+<p><code>cd myblog<code></code></code></p>
+<p>安装package.jason中的所有依赖包：</p>
+<p><code>npm install<code></code></code></p>
+</li>
+<li><p>在本地启动服务</p>
+<p><code>hexo server </code></p>
+<p>启动成功就可以在 localhost：4000 访问了</p>
+</li>
+<li><p>github 上创建 username.github.io 的仓库，username一定要和自己的 Github 账户名一样。</p>
+</li>
+<li><p>在本地博客文件夹找到 _config.yml 文件，找到文件最后的 deploy，在此设置部署的仓库地址。</p>
+<blockquote>
+<p>type: git<br>repository:<a href="https://github/EricMayuehua/EricMaYuehua.github.io.git" target="_blank" rel="external">https://github/EricMayuehua/EricMaYuehua.github.io.git</a><br>branch: master</p>
+</blockquote>
+</li>
+<li><p>生产博客静态文件</p>
+<p><code>hexo g</code></p>
+</li>
+<li><p>把静态文件部署到设置的 Github 仓库（要在 git bash 里执行此命令）</p>
+<p><code>hexo deploy</code></p>
+</li>
+</ol>
+<p>此时就可以在 username.github.io 这个地址访问生产的博客页面了。</p>
+
+  </section>
+
+  
+  
+</article>
 
 
-</div>
             <footer class="footer">
 
     <span class="footer__copyright">&copy; 2014-2015. | 由<a href="https://hexo.io/">Hexo</a>强力驱动 | 主题<a href="https://github.com/someus/huno">Huno</a></span>
@@ -228,6 +277,18 @@ classes that you can use:
 
 
     
+
+    <script src="/js/awesome-toc.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $.awesome_toc({
+                overlay: true,
+                contentId: "post-content",
+            });
+        });
+    </script>
+
+
     
     
     <!--kill ie6 -->
